@@ -1,6 +1,6 @@
-%% Análisis PIV en cuartiles de las fluctuaciones turbulentas en tres puntos de la eyección
+%% AnÃ¡lisis PIV en cuartiles de las fluctuaciones turbulentas en tres puntos de la eyecciÃ³n
 % Analizar por cuartiles los datos tomados con PIV, caracteriza
-% elipses considerando: Como ángulo de inclinación la pendiente de la linea de tendencia de la serie de datos, como radio mayor y radio menor. 
+% elipses considerando: Como Ã¡ngulo de inclinaciÃ³n la pendiente de la linea de tendencia de la serie de datos, como radio mayor y radio menor. 
 %  
 %% Procesamiento de resultados PIV
 clear all, clc, clear memory
@@ -292,7 +292,7 @@ name=strcat('May05dcc_P',num2str(y))
 save(name,'Yo','X','Vel_l','Vel_y','Qf_u','Qf_v','Q1','Q1_K','Q1_u','Q1_v','Q2','Q2_K','Q2_u','Q2_v','Q3','Q3_K','Q3_u','Q3_v','Q4','Q4_K','Q4_u','Q4_v','radM','radm','ang', 'Umagt','Ut','Vt','U','V','Ucomp','U_p','V_p')
 
 % fileID = fopen(name,'w');
-% fprintf(fileID,'%0s %10s %12s\n','Ra','Rb','Ángulo');
+% fprintf(fileID,'%0s %10s %12s\n','Ra','Rb','Ãngulo');
 % fprintf(fileID,'%0.4f %9.4f %9.4f\n',radM, radm, ang);
 % fclose(fileID);
 
